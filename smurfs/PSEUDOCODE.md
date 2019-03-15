@@ -39,8 +39,12 @@ updateSmurf
 deleteSmurf
 
 Step 6
-Wire up everything and esnure the form is working as expected - Done
+Wire up everything and ensure the mvp requirments for the form is working as expected - Done
 
 Step 7
 Work on styling 
-Use Tachyons
+Use Tachyons - Done
+
+Step 9
+Work on stretch
+Fix the issues with Update and Delete buttons
