@@ -36,3 +36,5 @@ selectSmurf
 updateSmurf 
 deleteSmurf
 
+Step 6
+Wire up everything and esnure the form is working as expected - Done
