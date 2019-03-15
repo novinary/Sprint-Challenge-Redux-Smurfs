@@ -1,10 +1,10 @@
 /*
   Be sure to import in all of the action types from `../actions`
 */
-
+import { FETCH_SMURFS, FETCHED_SMURFS, SAVE_SMURFS, SAVED_SMURFS, UPDATING_SMURF,UPDATED_SMURF,DELETING_SMURF, DELETED_SMURF, SELECT_SMURF, ERROR } from '../actions'
 
 //Your initial/default state for this project could *Although does not have to* look a lot like this
-const intialState =
+const initialState =
 {
   smurfs: [],
   fetchingSmurfs: false,
