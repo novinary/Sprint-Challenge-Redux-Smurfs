@@ -1,13 +1,15 @@
 Step 1
 Answer self-study questions - Done
 
+Step 1
+- create a rootReducer and utilise Redux-Thunk in index.js - Done
+- in the createstore function pass thunk and logger in the applyMiddleware parameter to use them 
+- the logger middleware helps to code better by providing instant logging
+
 Step 2
 Work on basic smurf components
 - create a new file called Smurfs.js under components folder - Done
 - create a new file called SmurfForm.js under components folder - Done
-
-Step 3
-- create a rootReducer and utilise Redux-Thunk in index.js - Done
 
 Step 4
 ** Reducers and cases **
@@ -38,3 +40,7 @@ deleteSmurf
 
 Step 6
 Wire up everything and esnure the form is working as expected - Done
+
+Step 7
+Work on styling 
+Use Tachyons

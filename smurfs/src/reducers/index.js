@@ -11,6 +11,7 @@ const initialState =
   addingSmurf: false,
   updatingSmurf: false,
   deletingSmurf: false,
+  selectedId: null,
   error: null
 }
 

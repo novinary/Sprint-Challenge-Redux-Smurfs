@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addSmurf, deleteSmurf, updateSmurf } from '../actions'
+import 'tachyons';
 
 class SmurfForm extends Component {
     constructor(props) {
@@ -53,26 +54,29 @@ class SmurfForm extends Component {
             <div className="SmurfForm">
                 <form>
                     <input
+                        className="mr2 pv2"
                         onChange={this.handleInputChange}
                         placeholder="name"
                         value={this.state.name}
                         name="name"
                     />
                     <input
+                        className="mr2 pv2"
                         onChange={this.handleInputChange}
                         placeholder="age"
                         value={this.state.age}
                         name="age"
                     />
                     <input
+                        className="mr2 pv2"
                         onChange={this.handleInputChange}
                         placeholder="height"
                         value={this.state.height}
                         name="height"
                     />
-                    <button onClick={this.handleAdd}>Add to the village</button>
-                    <button onClick={this.handleUpdate}>Mutate smurf</button>
-                    <button onClick={this.handleDelete}>Delete smurf</button>
+                    <button className="mr1 pv1" onClick={this.handleAdd}>Add to the village</button>
+                    <button className="mr1 pv1" onClick={this.handleUpdate}>Update smurf</button>
+                    <button className="mr1 pv1" onClick={this.handleDelete}>Delete smurf</button>
                 </form>
             </div>
         );

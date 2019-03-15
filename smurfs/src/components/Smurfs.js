@@ -13,18 +13,18 @@ class Smurfs extends Component {
             <div className="Smurfs">
                 <h1>Smurf Village</h1>
                 <ul>
-                    {this.props.smurfs.map(smurf => {
+                    {this.props.smurfs.map((smurf) => {
                         return (
-                            <li
-                                className={smurf.selected ? "Current smurf" : "smurf"}
-                                onClick={() =>
-                                    this.props.selectSmurf(smurf.id)}
-                                key={smurf.id}
+                         <div 
+                                className={smurf.selected ? "selected-smurf smurf" : "smurf"}
+                                onClick = {() => 
+                                this.props.selectSmurf(smurf.id) }
+                                key={smurf.name}
                             >
                                 <h3>{smurf.name}</h3>
                                 <strong>{smurf.height} tall</strong>
-                                <p>{smurf.age} smurf years old</p>
-                            </li>
+                                <p>{smurf.age} smurf years old</p>                
+                            </div >  
                         );
                     })}
                 </ul>

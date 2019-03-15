@@ -30,7 +30,7 @@ export const fetchSmurf = () => {
   const request = axios.get(`http://localhost:3333/smurfs`)
   return (dispatch) => {
       request.then(({data})=> {
-          dispatch({type: FETCH_SMURFS, payload: data})
+          dispatch({type: FETCH_SMURFS, payload: data})     //payload is a property that holds data in redux action object
       })
       .then(()=>{
           dispatch({type: FETCHED_SMURFS})
