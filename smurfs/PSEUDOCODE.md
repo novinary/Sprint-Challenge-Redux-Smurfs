@@ -2,7 +2,7 @@ Step 1
 Answer self-study questions - Done
 
 Step 1
-- create a rootReducer and utilise Redux-Thunk in index.js - Done
+- create a store function and utilise Redux-Thunk in index.js - Done
 - in the createstore function pass thunk and logger in the applyMiddleware parameter to use them 
 - the logger middleware helps to code better by providing instant logging
 
@@ -44,7 +44,3 @@ Wire up everything and ensure the mvp requirments for the form is working as exp
 Step 7
 Work on styling 
 Use Tachyons - Done
-
-Step 9
-Work on stretch
-Fix the issues with Update and Delete buttons

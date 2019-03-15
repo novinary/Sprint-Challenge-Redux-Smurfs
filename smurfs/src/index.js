@@ -15,6 +15,8 @@ const store = createStore(
   applyMiddleware(thunk, logger)
 );
 
+// The <Provider /> makes the Redux store available to any 
+//nested components that have been wrapped in the connect() function. 
 ReactDOM.render(
   <Provider store={store}>
     <App />
